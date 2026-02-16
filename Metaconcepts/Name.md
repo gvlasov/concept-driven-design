@@ -1,0 +1,1 @@
+A sting of symbols that uniquely identifies a concept or a reflection

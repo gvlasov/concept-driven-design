@@ -1,0 +1,1 @@
+What something consists of. The set of its own parts and relationships between them.

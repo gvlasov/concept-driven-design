@@ -1,0 +1,1 @@
+A particular appearance of a [[Reflection|reflection]] within a [[State]]

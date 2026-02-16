@@ -1,0 +1,1 @@
+A partition of a larger set into smaller sets

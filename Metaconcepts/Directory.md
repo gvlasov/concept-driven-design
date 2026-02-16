@@ -1,0 +1,1 @@
+A node in a hierarchical tree that groups its subnodes

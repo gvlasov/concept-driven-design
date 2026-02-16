@@ -1,0 +1,1 @@
+A [[subject]] that has [[beliefs]] about the outcomes of [[Process|processes]] that he can run.
