@@ -1,0 +1,1 @@
+Essentially the same as DDD repository. An interface with a database that allows to express CRUD operations with domain language. Transaction boundaries may or may not be within repository methods.

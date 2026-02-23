@@ -1,1 +1,1 @@
-Maps [[User|user]] input to a goal, with 0+ changes to state and 0+ user feedbacks
+Maps [[User|user]] input to a [[Goal|goal]], with 0+ changes to state and 0+ user feedbacks

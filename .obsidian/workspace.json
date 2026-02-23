@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Untitled",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,30 +198,34 @@
   },
   "active": "a1cca4e0a4563688",
   "lastOpenFiles": [
-    "llmSystemPrompts/build~",
-    "llmSystemPrompts/copy-to-clipboard~",
-    "Metaconcepts/Subject.md~",
-    "llmSystemPrompts/copy-to-clipboard",
+    "Metaconcepts/Discovery.md~",
+    "llmSystemPrompts/refinement/copy-to-clipboard~",
+    "llmSystemPrompts/whole-text~",
+    "llmSystemPrompts/refinement/prompt-for-refinement~",
+    "llmSystemPrompts/whole-text",
+    "llmSystemPrompts/refinement/prompt-for-refinement",
+    "llmSystemPrompts/refinement/Refine.prompt.md",
+    "llmSystemPrompts/build.tmp.22530.1771841514353",
+    "Metaconcepts/Command.md~",
+    "Metaconcepts/Conceptualization.md~",
+    "Common software project concepts/Untitled.md",
+    "Metaconcepts/Collection.md",
+    "llmSystemPrompts/build.tmp.22530.1771840782829",
+    "Common software project concepts/Concept-driven directory structure.md~",
+    "Metaconcepts/Discovery.md",
+    "llmSystemPrompts/Refine.prompt.md",
+    "llmSystemPrompts/Refine.md",
     "Metaconcepts/Subject.md",
     "README.md",
-    "platform",
-    "concepts",
-    "Common software project concepts/Diagram.url",
-    "Metaconcepts/Collection.md",
     "Common software project concepts/Concept-driven directory structure.md",
     "Module design principles/Dependency Injection.md",
     "Metaconcepts/State.md",
-    "Module design principles",
-    "llmSystemPrompts/Dolls.figjam",
     "Common software project concepts/Environment.md",
-    "Common software project concepts/Untitled.md",
-    "Common software project concepts/Concept-driven directory structure.figjam",
     "Common software project concepts/Repository.md",
     "Subject.md",
     "Common software project concepts/Shell.md",
     "Common software project concepts/Project.md",
     "README.md.md",
-    "lovedolldb.figjam",
     "Discovery.md",
     "llmSystemPrompts/README.md",
     "Metaconcepts/Instance.md",
@@ -230,10 +235,6 @@
     "Untitled.md",
     "Metaconcepts/Command.md",
     "Metaconcepts/Goal.md",
-    "Metaconcepts/Structure.md",
-    "Metaconcepts/Reflection.md",
-    "Metaconcepts/Virtual reality.md",
-    "Metaconcepts/Directory.md",
-    "Metaconcepts/Screen.md"
+    "Metaconcepts/Structure.md"
   ]
 }

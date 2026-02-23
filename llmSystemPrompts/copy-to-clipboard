@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-cd "$(dirname "$0")"
-./build | xclip -i -selection clipboard
-echo "Copied to clipboard"
+output=$(cat)
+line_count=$(echo "$output" | wc -l)
+echo "$output" | xclip -i -selection clipboard
+echo "Copied $line_count lines to clipboard"

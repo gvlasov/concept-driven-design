@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Builds the prompt used to refine the system by LLM
+cd "$(git rev-parse --show-toplevel)"
+./llmSystemPrompts/whole-text
+cat ./llmSystemPrompts/refinement/Refine.prompt.md
