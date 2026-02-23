@@ -4,39 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "4019d0ef448ce665",
+        "id": "41d680e64db4c740",
         "type": "tabs",
         "children": [
           {
-            "id": "8f137b5a2aac1bc0",
+            "id": "a1cca4e0a4563688",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subject.md",
+                "file": "Metaconcepts/Collection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subject"
+              "title": "Collection"
             }
           },
           {
-            "id": "4e4a9d9f830a7020",
+            "id": "f8bba271b624a686",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "url-webview",
               "state": {
-                "file": "Common software project concepts/Concept-driven directory structure.md",
-                "mode": "source",
-                "source": false
+                "file": "Common software project concepts/Diagram.url"
               },
               "icon": "lucide-file",
-              "title": "Concept-driven directory structure"
+              "title": "Diagram"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,11 +43,11 @@
     "type": "split",
     "children": [
       {
-        "id": "218e47c3391be313",
+        "id": "4ff23b0f6ee19e20",
         "type": "tabs",
         "children": [
           {
-            "id": "29a3218961fa2b5b",
+            "id": "fcfddcd1c85ff801",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +60,7 @@
             }
           },
           {
-            "id": "288960eaa7f705b5",
+            "id": "f0efab0705eb5707",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +77,7 @@
             }
           },
           {
-            "id": "459dd430771279af",
+            "id": "4c94e57e795cc84d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 282.5004348754883
   },
   "right": {
     "id": "be769299df4d5700",
@@ -109,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metaconcepts/Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Structure"
+              "title": "Backlinks"
             }
           },
           {
@@ -195,32 +191,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "url-webview-opener:Create .url file": false
     }
   },
-  "active": "4e4a9d9f830a7020",
+  "active": "a1cca4e0a4563688",
   "lastOpenFiles": [
+    "llmSystemPrompts/build~",
+    "llmSystemPrompts/copy-to-clipboard~",
+    "Metaconcepts/Subject.md~",
+    "llmSystemPrompts/copy-to-clipboard",
+    "Metaconcepts/Subject.md",
+    "README.md",
+    "platform",
+    "concepts",
+    "Common software project concepts/Diagram.url",
+    "Metaconcepts/Collection.md",
+    "Common software project concepts/Concept-driven directory structure.md",
+    "Module design principles/Dependency Injection.md",
+    "Metaconcepts/State.md",
+    "Module design principles",
+    "llmSystemPrompts/Dolls.figjam",
+    "Common software project concepts/Environment.md",
+    "Common software project concepts/Untitled.md",
+    "Common software project concepts/Concept-driven directory structure.figjam",
+    "Common software project concepts/Repository.md",
+    "Subject.md",
+    "Common software project concepts/Shell.md",
+    "Common software project concepts/Project.md",
+    "README.md.md",
+    "lovedolldb.figjam",
+    "Discovery.md",
+    "llmSystemPrompts/README.md",
+    "Metaconcepts/Instance.md",
+    "Metaconcepts/Deconceptualization.md",
+    "Diagrams.canvas",
+    "Pasted image 20260216130544.png",
+    "Untitled.md",
     "Metaconcepts/Command.md",
     "Metaconcepts/Goal.md",
     "Metaconcepts/Structure.md",
-    "Common software project concepts/Project.md",
     "Metaconcepts/Reflection.md",
-    "Common software project concepts/Untitled.md",
-    "Common software project concepts/Concept-driven directory structure.md",
-    "Deconceptualization.md",
-    "Diagrams.canvas",
-    "Subject.md",
-    "README.md.md",
-    "Discovery.md",
     "Metaconcepts/Virtual reality.md",
     "Metaconcepts/Directory.md",
-    "Metaconcepts/Screen.md",
-    "Metaconcepts/Physical reality.md",
-    "Metaconcepts/Name.md",
-    "Metaconcepts/Kind.md",
-    "Metaconcepts/Invisibility.md",
-    "Metaconcepts/Imagination.md",
-    "Metaconcepts/Function.md",
-    "llmSystemPrompts/README.md"
+    "Metaconcepts/Screen.md"
   ]
 }

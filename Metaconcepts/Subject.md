@@ -2,7 +2,6 @@ Something that can start [[Process|processes]]
 
 Subject may have the ability to consume the output of a process to drive its decisions
 
-
 **Examples:**
 
 - A systemd daemon on a host is a subject

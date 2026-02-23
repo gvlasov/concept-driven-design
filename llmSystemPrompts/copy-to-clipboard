@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+./build | xclip -i -selection clipboard
+echo "Copied to clipboard"
