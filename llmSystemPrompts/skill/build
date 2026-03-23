@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")/.."
+echo "---
+name: concept_driven_design
+description: Apply concept-driven design methodology when generating or organizing code. Use when creating files, structuring projects, or deciding where code belongs.
+---
+"
+
+./whole-text
+echo "# llmSystemPrompts/skill/Skill"
+cat skill/Skill.md
+echo
+echo

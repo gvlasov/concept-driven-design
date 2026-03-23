@@ -4,33 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "41d680e64db4c740",
+        "id": "cccde6f61bc3f8f7",
         "type": "tabs",
         "children": [
           {
-            "id": "a1cca4e0a4563688",
+            "id": "bd22c71067efcafa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metaconcepts/Collection.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collection"
+              "title": "README"
             }
           },
           {
-            "id": "f8bba271b624a686",
+            "id": "d35a0e825e8b8d97",
             "type": "leaf",
             "state": {
-              "type": "url-webview",
+              "type": "webviewer",
               "state": {
-                "file": "Common software project concepts/Diagram.url"
+                "url": "https://www.wikiwand.com/en/Shotgun_surgery",
+                "title": "Shotgun surgery - Wikiwand",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "Diagram"
+              "icon": "globe-2",
+              "title": "Shotgun surgery - Wikiwand"
             }
           }
         ]
@@ -65,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Untitled",
+                "query": "scroo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,12 +88,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5004348754883
+    "width": 300.5
   },
   "right": {
     "id": "be769299df4d5700",
@@ -196,45 +197,44 @@
       "url-webview-opener:Create .url file": false
     }
   },
-  "active": "a1cca4e0a4563688",
+  "active": "bd22c71067efcafa",
   "lastOpenFiles": [
-    "Metaconcepts/Discovery.md~",
-    "llmSystemPrompts/refinement/copy-to-clipboard~",
-    "llmSystemPrompts/whole-text~",
-    "llmSystemPrompts/refinement/prompt-for-refinement~",
-    "llmSystemPrompts/whole-text",
-    "llmSystemPrompts/refinement/prompt-for-refinement",
-    "llmSystemPrompts/refinement/Refine.prompt.md",
-    "llmSystemPrompts/build.tmp.22530.1771841514353",
-    "Metaconcepts/Command.md~",
-    "Metaconcepts/Conceptualization.md~",
+    "Common software project concepts/Concept-driven directory structure.md",
+    "Common software project concepts/Tool-driven directory structure.md",
+    "Common software project concepts/Environment.md",
+    "Common software project concepts/Diagram.url",
+    "shotgun surgery.md",
+    "README.md",
+    "Common software project concepts/Repository.md",
+    "Common software project concepts/GRUG 2.figjam",
+    "Common software project concepts/Grug.figjam",
+    "Untitled.md",
+    "Common software project concepts/Project.md",
+    "Common software project concepts/Scroopy.figjam",
+    "Common software project concepts/Lovedolldb.figjam",
     "Common software project concepts/Untitled.md",
+    "Common software project concepts/asdfsadf.md",
+    "Common software project concepts/Shell.md",
+    "Scroopy.md",
+    "Common software project concepts/Sex.figjam",
     "Metaconcepts/Collection.md",
-    "llmSystemPrompts/build.tmp.22530.1771840782829",
-    "Common software project concepts/Concept-driven directory structure.md~",
+    "llmSystemPrompts/skill/build~",
+    "llmSystemPrompts/skill/Skill.md~",
+    "llmSystemPrompts/skill/install~",
+    "llmSystemPrompts/skill/install.tmp.22530.1771843536201",
+    "llmSystemPrompts/skill/Skill.md",
+    "llmSystemPrompts/refinement/Refine.prompt.md",
     "Metaconcepts/Discovery.md",
     "llmSystemPrompts/Refine.prompt.md",
     "llmSystemPrompts/Refine.md",
     "Metaconcepts/Subject.md",
-    "README.md",
-    "Common software project concepts/Concept-driven directory structure.md",
     "Module design principles/Dependency Injection.md",
     "Metaconcepts/State.md",
-    "Common software project concepts/Environment.md",
-    "Common software project concepts/Repository.md",
     "Subject.md",
-    "Common software project concepts/Shell.md",
-    "Common software project concepts/Project.md",
     "README.md.md",
     "Discovery.md",
     "llmSystemPrompts/README.md",
-    "Metaconcepts/Instance.md",
-    "Metaconcepts/Deconceptualization.md",
     "Diagrams.canvas",
-    "Pasted image 20260216130544.png",
-    "Untitled.md",
-    "Metaconcepts/Command.md",
-    "Metaconcepts/Goal.md",
-    "Metaconcepts/Structure.md"
+    "Pasted image 20260216130544.png"
   ]
 }

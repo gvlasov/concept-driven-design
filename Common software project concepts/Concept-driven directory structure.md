@@ -1,11 +1,17 @@
 A hierarchical directory structure of a [[Project]] where on the first level there are only [[Concept|concepts]], and on the 2nd and deeper levels there are the [[Reflection|reflections]] of the corresponding concepts
 
 **The problem it solves:**
-For the entire software development history, project directory structures were created for tools to ingest, not for humans to read. Tools want files grouped *by the tool* that uses them: tests ran with PHPUnit in /tests, source code compiled with esbuild in /src/resources/typescript. But for people it is more natural to group files *by the concept* they reflect.
+For the entire software development history, project directory structures were created [[Tool-driven directory structure|for tools to ingest]], not for developers to understand the project. This manifests as:
+- Tools want files grouped *by the tool* that uses them: tests ran with PHPUnit in /tests, source code compiled with esbuild in /src/resources/typescript. This naturally creates a kind of [shotgun surgery](https://www.wikiwand.com/en/Shotgun_surgery) where changes that should be cohesive span not many files, but many directories: 
+	- backend changes in one directory, 
+	- frontend changes in another directory, 
+	- documentation changes in yet another directory.
+- Every tool is a CLI instrument that you would want to run as simply as possible, so their configuration files would naturally be placed at the root of a repository, dedicating the / level as something for tools, e.g. /package.json for `npm`. This is fine while your configs are simple, but when they start requiring additional files, you will want to group them together so they are not scattered all over the codebase. And also it would result in transient directories like `node_modules` to appear at the root of the project.
 
 Inspiration is drawn from:
 - Feature-sliced directory structure
 - Wikipedia – organizing everything about a concept in one place, with links between concepts and no single definitional hierarchy of the concepts, there is no "root" concept on Wikipedia – only reflections of the real world.
+- Bob Martin's "screaming architecture" concept
 
 See [[Diagram.url]]
 
@@ -13,7 +19,7 @@ See [[Diagram.url]]
 All project code is separated into:
 - `/concepts` - all reflections of the concepts, grouped in directories by a specific concept
 - `/platform` - code that prepares framework, runtime environment, infrastructure - any means that run our application reflect the problem being solved with it.
-- `/commands` - for the project developer to operate the project in building. 
+- `/platform/cli` - for the project developer to operate the project in building. 
 	- Setting up the project
 	- Bringing it up for manual testing
 	- Operating data state from command line
@@ -26,22 +32,23 @@ All project code is separated into:
 ```
 /concepts/
 /platform/
-/commands/
-/commands/up
+/platform/cli/
+/platform/cli/up
 /concepts/apples/
 /concepts/apples/Apple.php
 /concepts/apples/Apple.vue
 /concepts/apples/AppleGatheringJob.php
 /concepts/apples/AppleIndex.php
-/concepts/trees
+/concepts/trees/
 /concepts/trees/Tree.php
 /concepts/trees/tree.ini
 /concepts/trees/images/Tree1.png
 /concepts/trees/images/Tree2.png
 /concepts/trees/README.md
-/platform/docker
-/platform/vite
-/platform/npm
+/platform/containers/docker-compose.yaml
+/platform/frontend/vite.config.ts
+/platform/typescript/tsconfig.json
+/platform/dependencies/package.json
 /platform/entrypoints
 ```
 
@@ -53,7 +60,7 @@ All project code is separated into:
 	- resources, 
 	- tests
 	- migrations for the models - extracted in classes, with subsequent migration code as separate methods, but called somewhere in called in /platform/migrations / /platform/databases
-- Platform code is anything that sets up the frameworks and operating system tools to run the application: 
+- Platform code is anything that sets up the frameworks and operating system tools to run the application: infrastructure
 	- Docker, 
 	- package managers, 
 	- linters, 
